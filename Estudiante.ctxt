@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Estudiante
+comment0.text=\r\n\ La\ clase\ Estudiante\ contiene\ los\ datos\ necesarios\ para\ determininar\ si\ un\ estudiante\ puede\ alquilar\ o\ no\ libros.\r\n\ \r\n\ @author\ Alfonzo,\ Micaela\r\n\ @version\ 06/11/2019\r\n
+comment1.params=p_dniSocio\ p_nombre\ p_diasPrestamo\ p_carrera
+comment1.target=Estudiante(int,\ java.lang.String,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Estudiante\r\n\ \r\n\ @param\ int\ p_socio,\ String\ p_nombre,\ int\ p_diasPrestamo,\ String\ p_carera\r\n
+comment2.params=p_carrera
+comment2.target=void\ setCarrera(java.lang.String)
+comment2.text=\r\n\ Asigna\ un\ valor\ al\ atributo\r\n\ \r\n\ @param\ String\ p_carera\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCarrera()
+comment3.text=\r\n\ Retorna\ el\ valor\ del\ atributo\r\n\ \r\n\ @return\ carrera\r\n
+comment4.params=
+comment4.target=java.lang.String\ soyDeLaClase()
+comment4.text=\r\n\ Permite\ conocer\ a\ clase\ pertence\ el\ objeto\r\n\ \r\n\ @return\ Retorna\ un\ String\ indicando\ a\ que\ clase\ pertenece\r\n
+comment5.params=
+comment5.target=boolean\ puedePedir()
+comment5.text=\r\n\ Permite\ determinar\ si\ el\ objeto\ puede\ pedir\ un\ prestamo\ de\ libros,\ verificando\ si\ cumple\ con\ los\ requisitos\r\n\ \r\n\ @return\ Retorna\ true\ o\ false\ segun\ corresponda\ en\ cada\ caso\r\n
+numComments=6

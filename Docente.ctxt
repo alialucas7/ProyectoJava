@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Docente
+comment0.text=\r\n\ La\ clase\ Docente\ contiene\ los\ datos\ necesarios\ para\ determininar\ si\ un\ docente\ puede\ alquilar\ o\ no\ libros.\r\n\ \r\n\ @author\ Alfonzo,\ Micaela\ \r\n\ @version\ 6/11/2019\r\n
+comment1.params=p_dniSocio\ p_nombre\ p_diasPrestamo\ p_area
+comment1.target=Docente(int,\ java.lang.String,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Docente\r\n\ \r\n\ @param\ int\ p_socio,\ String\ p_nombre,\ int\ p_diasPrestamo,\ String\ p_area\r\n
+comment2.params=p_area
+comment2.target=void\ setArea(java.lang.String)
+comment2.text=\r\n\ Asigna\ un\ valor\ al\ atributo\r\n\ \r\n\ @param\ String\ p_area\r\n
+comment3.params=
+comment3.target=java.lang.String\ getArea()
+comment3.text=\r\n\ Retorna\ el\ valor\ del\ atributo\r\n\ \r\n\ @return\ area\r\n
+comment4.params=
+comment4.target=boolean\ esResponsable()
+comment4.text=\r\n\ Determina\ si\ el\ objeto\ docentees\ resposnable,\ verificando\ si\ no\ contiene\ prestamos\ vencidos\r\n\ \r\n\ @return\ Retorna\ true\ o\ false\ segun\ corresponada\ en\ cada\ caso\r\n
+comment5.params=p_dias
+comment5.target=int\ agregarDiasDePrestamo(int)
+comment5.text=\r\n\ Retorna\ el\ valor\ del\ atributo\r\n\ \r\n\ @return\ Retorna\ la\ suma\ total\ de\ los\ dias\ de\ prestamos,\ mas\ la\ cantidad\ de\ dias\ de\ prestamo\ que\ se\ le\ agreguen\ por\ ser\ responsable\r\n
+comment6.params=
+comment6.target=java.lang.String\ soyDeLaClase()
+comment6.text=\r\n\ Permite\ conocer\ a\ clase\ pertence\ el\ objeto\r\n\ \r\n\ @return\ Retorna\ un\ String\ indicando\ a\ que\ clase\ pertenece\r\n
+numComments=7
